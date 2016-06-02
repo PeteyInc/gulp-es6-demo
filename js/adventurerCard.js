@@ -1,5 +1,5 @@
 angular.module('devmtnTravel')
-.directive('adventurerCard', function() {
+.directive('adventurerCard', () => {
   return {
     restrict: 'A',
     templateUrl: '../views/adventureCard.html',
